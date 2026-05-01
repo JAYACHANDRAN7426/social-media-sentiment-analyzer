@@ -1,10 +1,15 @@
-# ═══════════════════════════════════════════════════════════════════════════
-# config.py  —  Paste your API keys here (one time only)
-# ═══════════════════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════════════════════
+# config.py — API Keys Configuration
+# ═══════════════════════════════════════════════════════════════════════════════
+# Fill in your API keys below (one time only).
+# This file is loaded automatically when the app starts.
+# ───────────────────────────────────────────────────────────────────────────────
 
-# ── Reddit (https://www.reddit.com/prefs/apps) ──────────────────────────────
-REDDIT_CLIENT_ID     = ""   # ← paste your client_id here
-REDDIT_CLIENT_SECRET = ""   # ← paste your client_secret here
+# ── Reddit API (Free) ─────────────────────────────────────────────────────────
+# Get yours at: https://www.reddit.com/prefs/apps  →  Create App  →  script
+REDDIT_CLIENT_ID     = ""    # ← paste your Reddit client_id here
+REDDIT_CLIENT_SECRET = ""    # ← paste your Reddit client_secret here
 
-# ── YouTube (https://console.cloud.google.com) ───────────────────────────────
-YOUTUBE_API_KEY      = "AIzaSyActK-fy-SK6LmNMALwieXrfeEdG0E-Cro"   # ← paste your YouTube Data API v3 key here
+# ── YouTube Data API v3 (Free) ────────────────────────────────────────────────
+# Get yours at: https://console.cloud.google.com  →  Enable YouTube Data API v3
+YOUTUBE_API_KEY      = ""    # ← paste your YouTube API key here
